@@ -11,7 +11,7 @@ gulp.task('css',function(){
 	.pipe(browserSync.reload({stream:true}));
 })
 gulp.task('js',function(){
-	gulp.src('js/**/*.js')
+	gulp.src(['js/**/*.js','node_modules/vue/dist/vue.js','node_modules/director/build/director.js'])
 	.pipe(gulp.dest('dist/js/'))
 	.pipe(browserSync.reload({stream:true}))
 })

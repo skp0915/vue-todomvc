@@ -4,7 +4,9 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "todomvc-app-css": "^2.1.0"
+    "director": "^1.2.8",
+    "todomvc-app-css": "^2.1.0",
+    "vue": "^2.3.4"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",
